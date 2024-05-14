@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+
+    background-color: whitesmoke;
+    color: hsl(0, 5%, 66%);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 2;
+}
+
+ul{
+
+    display: flex;
+    /* padding: 10px; */
+    list-style-type: none;
+
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 20px;
+}
+
+.MyCard{
+    border-radius: 20px;
+}
